@@ -98,7 +98,7 @@ botao2_busca = wait.until(condicao_esperada.element_to_be_clickable((By.XPATH,'/
 botao2_busca.click()
 
 input('')
-
+# Como filtrar href= print(resposta.get_attribute('href'))
 
 
 
